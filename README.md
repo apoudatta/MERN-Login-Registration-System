@@ -13,3 +13,9 @@
     cd frontend
     npm install axios react-router-dom
 ```
+
+### Mongo db status check and start
+```bash
+    sudo systemctl status mongod.service
+    sudo systemctl start mongod.service
+```
